@@ -23,11 +23,11 @@ The code utilizes a restaurant inspection dataset (TRAIN_SET_2022.csv on kaggle 
 Code Overview
 The code consists of several functions and steps:
 
-Data preprocessing: The code performs data cleaning and preprocessing tasks such as converting data types, handling missing values, and transforming variables.
+Data preprocessing: The code performs a thourough data cleaning and preprocessing. Such as converting data types, handling missing values, transforming variables, repla.
 
 Exploratory Data Analysis (EDA): The code includes EDA to gain insights into the dataset. It visualizes the distribution of categorical variables and explores relationships between variables.
 
-Model Training: The code trains several models for predicting restaurant inspection grades. The models include Logistic Regression, Random Forest, and XGBoost. The models are evaluated using cross-validation and metrics such as accuracy, precision, recall, F1 score, and ROC AUC.
+Model Training: I used three models for predicting the inspection grades. The models include Logistic Regression, Random Forest, and XGBoost. The models are evaluated using cross-validation and metrics(accuracy, precision, recall, F1 score, and ROC AUC).
 
 Model Evaluation: The code evaluates the trained models using various metrics and generates performance visualizations such as confusion matrices and precision-recall curves.
 
